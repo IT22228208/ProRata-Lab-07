@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class IT22228208Lab7Q2C {
+    public static void main(String[] args) {
+        for (int i = 5; i >= 1; i--) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+    }
+}
